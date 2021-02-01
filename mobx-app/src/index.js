@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // mobx 
 import {Provider} from 'mobx-react'
 import store from './store'
+console.log(store);
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
